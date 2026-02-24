@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="first" height="200">
+    <h2>Contact Us</h2>
+    </div>
+    <hr>
+    <form>
+        <fieldset>
+            <legend>Contact Details</legend><br>
+        <label for="name"> Enter your name :<br></label>
+            <input type="text" id="name" placeholder="Name">
+        
+        <br><br>
+        <label for="email"> Enter your email :<br></label>
+            <input type="email"  id="email"placeholder="email address">
+        
+        <br><br>
+        <label for="phoneno"> Enter your contact no. :<br> </label>
+            <input type="tel" id="phoneno" placeholder="contact no.">
+       
+        <br><br>
+        Select your gender:<br>
+            <input type="radio" id="male" value="Male" name="gender">
+            <label for="male">Male </label><br>
+            <input type="radio" id="female" value="Female" name="gender">
+            <label for="female">Female </label>
+       
+        <br><br>
+        <label for="dob"> Enter your date of birth :<br> </label>
+            <input type="date" id="dob" placeholder="date-of-birth">
+       
+        <br><br>
+        <label for="address"> Enter your address :<br> </label>
+            <input type="text" id="address">
+       
+        <br><br>
+
+        <label for="comments">Message:</label><br>
+        <textarea id="comments" name="comments" rows="5" cols="30" placeholder="Enter your message here..."></textarea>
+        <br><br> <hr>
+        <center><input type="button" value="Submit" id="submit"></center>
+
+</fieldset>
+    </form>
+</body>
+</html>
